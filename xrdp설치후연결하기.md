@@ -1,4 +1,4 @@
-# xrdp 설치 및 연결 과정 (117 설치 과정 예시)
+# xrdp 설치 및 연결 과정
 
 ### 설치 1: 설치합니다
 
@@ -13,15 +13,15 @@ sudo apt-get install xfce4
 sudo systemctl status xrdp
 ```
 
-![Untitled](xrdp%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%80%E1%85%A7%E1%86%AF%20%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A5%E1%86%BC%20(117%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A5%E1%86%BC%20%E1%84%8B%E1%85%A8%E1%84%89%E1%85%B5)%20d3ddcbf0db324721a5c33482032e4714/Untitled.png)
+![Untitled](https://github.com/laphisboy/etc/blob/main/xrdp%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%97%B0%EA%B2%B0%20%EA%B3%BC%EC%A0%95/Untitled.png)
 
 ### 윈도우 10 에서 연결 1: 시작 메뉴에서 rdp 를 쳐서 나오는 “원격 데스크톱 연결” 에 서버 ip를 입력합니다 (3389 포트 번호는 입력 안 하셔도 됩니다)
 
-![Untitled](xrdp%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%80%E1%85%A7%E1%86%AF%20%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A5%E1%86%BC%20(117%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A5%E1%86%BC%20%E1%84%8B%E1%85%A8%E1%84%89%E1%85%B5)%20d3ddcbf0db324721a5c33482032e4714/Untitled%201.png)
+![Untitled](https://github.com/laphisboy/etc/blob/main/xrdp%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%97%B0%EA%B2%B0%20%EA%B3%BC%EC%A0%95/Untitled%201.png)
 
 ### 윈도우 10 에서 연결 2: 연결이 되면 로그인 화면이 나오는데 본인 계정 및 비밀번호를 입력합니다
 
-![Untitled](xrdp%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%80%E1%85%A7%E1%86%AF%20%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A5%E1%86%BC%20(117%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A5%E1%86%BC%20%E1%84%8B%E1%85%A8%E1%84%89%E1%85%B5)%20d3ddcbf0db324721a5c33482032e4714/Untitled%202.png)
+![Untitled](https://github.com/laphisboy/etc/blob/main/xrdp%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%97%B0%EA%B2%B0%20%EA%B3%BC%EC%A0%95/Untitled%202.png)
 
 ### 에러 1: “login failed for display 0” 가 뜨면 [startwm.sh](http://startwm.sh) 안에 내용을 아래 #!/bin/sh ~ 로 시작하는 내용으로 바꿔주고 xrdp restart해서 다시 로그인 시도합니다.
 
@@ -72,12 +72,12 @@ sudo service xrdp restart
 
 ### 접속 화면
 
-![Untitled](xrdp%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%80%E1%85%A7%E1%86%AF%20%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A5%E1%86%BC%20(117%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A5%E1%86%BC%20%E1%84%8B%E1%85%A8%E1%84%89%E1%85%B5)%20d3ddcbf0db324721a5c33482032e4714/Untitled%203.png)
+![Untitled](https://github.com/laphisboy/etc/blob/main/xrdp%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%97%B0%EA%B2%B0%20%EA%B3%BC%EC%A0%95/Untitled%203.png)
 
 ### 추가 - 아래 터미널 아이콘이 작동 안 할 경우에는 alt+f2 로 application finder을 열고 xfce4-terminal을 실행시킵니다.
 
-![Untitled](xrdp%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%80%E1%85%A7%E1%86%AF%20%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A5%E1%86%BC%20(117%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A5%E1%86%BC%20%E1%84%8B%E1%85%A8%E1%84%89%E1%85%B5)%20d3ddcbf0db324721a5c33482032e4714/Untitled%204.png)
+![Untitled](https://github.com/laphisboy/etc/blob/main/xrdp%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%97%B0%EA%B2%B0%20%EA%B3%BC%EC%A0%95/Untitled%204.png)
 
 ### 이상입니다.
 
-![Untitled](xrdp%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%80%E1%85%A7%E1%86%AF%20%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A5%E1%86%BC%20(117%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A5%E1%86%BC%20%E1%84%8B%E1%85%A8%E1%84%89%E1%85%B5)%20d3ddcbf0db324721a5c33482032e4714/Untitled%205.png)
+![Untitled](https://github.com/laphisboy/etc/blob/main/xrdp%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%97%B0%EA%B2%B0%20%EA%B3%BC%EC%A0%95/Untitled%205.png)
